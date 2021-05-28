@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "simpleLinuxVM2"
+        },
+        "adminUsername": {
+            "value": "demouser"
+        },
+        "authenticationType": {
+            "value": "sshPublicKey"
+        },
+        "adminPasswordOrKey": {
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQClUjCjJaH80OR0bS/wVWBob35GUnGIcm9zTFkgDXfPRRl6oF63KK6G2PfJz4OhJ08xsUKIAM/+vf6jCwaeydoE5nOl4XsqNZRLKGkfaMmB6mPvecH+zDmBR+GANLHgRTcigSSjTf5sk4DoBAcRxvlbVzgHxsvTdlvS1hsrfBRJE0nVvDdkwqpySySxLZ4mEoSv1LZFysDPalZBypW39aDYR954eU8LyKrhb+lB8LigkCkFuN6JfbwNB3M4Zckvg7PN0helo2C7XQasVdAOZX3QLajxzyStkJ/Oj3wk49VOB3BUmXPH9DlhwCgBR69aS3VR78STGnfOF7PVrt538P1n gupta@DESKTOP-GVTTF46"
+        },
+        "dnsLabelPrefix": {
+            "value": "simplelinuxvm1-05052021"
+        },
+        "ubuntuOSVersion": {
+            "value": "18.04-LTS"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "VmSize": {
+            "value": "Standard_B2s"
+        },
+        "virtualNetworkName": {
+            "value": "vNet"
+        },
+        "subnetName": {
+            "value": "Subnet"
+        },
+        "networkSecurityGroupName": {
+            "value": "SecGroupNet"
+        }
+    }
+}
